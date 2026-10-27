@@ -1,0 +1,331 @@
+{
+  "albums": [
+    {
+      "name": "Thailand",
+      "slug": "thailand",
+      "cover": [
+        "img-0681",
+        "img-0642",
+        "img-0731",
+        "img-0655",
+        "img-0736",
+        "img-0678"
+      ]
+    },
+    {
+      "name": "Black & white",
+      "slug": "black-white",
+      "cover": [
+        "img-0540",
+        "img-2064",
+        "img-0863",
+        "img-0642",
+        "img-0866",
+        "img-0868"
+      ]
+    },
+    {
+      "name": "Night lights",
+      "slug": "night-lights",
+      "cover": [
+        "img-1083",
+        "img-1080"
+      ]
+    },
+    {
+      "name": "Everyday",
+      "slug": "everyday",
+      "cover": [
+        "img-1795",
+        "img-0260",
+        "img-1712",
+        "img-1676"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "kind": "paintings",
+      "title": "",
+      "file": "art/paintings/img-2112.jpg",
+      "thumb": "art/thumbs/img-2112.jpg",
+      "taken": "2026-10-28",
+      "added": "2026-10-28",
+      "sha1": "fc189c707d21b3de0fad0f019cf4c7e7f9f83f9a"
+    },
+    {
+      "kind": "photos",
+      "title": "",
+      "file": "art/photos/img-2064.jpg",
+      "thumb": "art/thumbs/img-2064.jpg",
+      "taken": "2026-10-22",
+      "added": "2026-10-28",
+      "sha1": "86b9aad22f45ae970ff0ddfd8af0a67190bb69d4",
+      "albums": [
+        "Black & white"
+      ]
+    },
+    {
+      "kind": "paintings",
+      "title": "",
+      "file": "art/paintings/img-1987.jpg",
+      "thumb": "art/thumbs/img-1987.jpg",
+      "taken": "2026-10-11",
+      "added": "2026-10-28",
+      "sha1": "ad82e81517b3a9648bd313be499e02280d9c1388"
+    },
+    {
+      "kind": "paintings",
+      "title": "",
+      "file": "art/paintings/img-1829.jpg",
+      "thumb": "art/thumbs/img-1829.jpg",
+      "taken": "2026-09-25",
+      "added": "2026-10-28",
+      "sha1": "d01ab54a36e0b9bb873594d1e5a4d883cda0bc14"
+    },
+    {
+      "kind": "photos",
+      "title": "",
+      "file": "art/photos/img-1795.jpg",
+      "thumb": "art/thumbs/img-1795.jpg",
+      "taken": "2026-09-19",
+      "added": "2026-10-28",
+      "sha1": "cc5218fcf2ef291581f5cf819ba1891604761f04",
+      "albums": [
+        "Everyday"
+      ]
+    },
+    {
+      "kind": "photos",
+      "title": "",
+      "file": "art/photos/img-1712.jpg",
+      "thumb": "art/thumbs/img-1712.jpg",
+      "taken": "2026-08-23",
+      "added": "2026-10-28",
+      "sha1": "5ebcc0c3615621b34e29e21272dcf319a1d0ca02",
+      "albums": [
+        "Everyday"
+      ]
+    },
+    {
+      "kind": "photos",
+      "title": "",
+      "file": "art/photos/img-1676.jpg",
+      "thumb": "art/thumbs/img-1676.jpg",
+      "taken": "2026-08-21",
+      "added": "2026-10-28",
+      "sha1": "19a06fd22cb560ca381185b84be13d084cac319c",
+      "albums": [
+        "Everyday"
+      ]
+    },
+    {
+      "kind": "photos",
+      "title": "",
+      "file": "art/photos/img-1080.jpg",
+      "thumb": "art/thumbs/img-1080.jpg",
+      "taken": "2026-04-02",
+      "added": "2026-10-28",
+      "sha1": "e6b24dd792b7d71b7714f73ad24a1a24344bacdf",
+      "albums": [
+        "Night lights"
+      ]
+    },
+    {
+      "kind": "photos",
+      "title": "",
+      "file": "art/photos/img-1083.jpg",
+      "thumb": "art/thumbs/img-1083.jpg",
+      "taken": "2026-04-02",
+      "added": "2026-10-28",
+      "sha1": "ff7a0f1e6b3638f34c468d30d7f5f516938c4646",
+      "albums": [
+        "Night lights"
+      ]
+    },
+    {
+      "kind": "photos",
+      "title": "",
+      "file": "art/photos/img-0863.jpg",
+      "thumb": "art/thumbs/img-0863.jpg",
+      "taken": "2026-02-09",
+      "added": "2026-10-28",
+      "sha1": "050e3b7ec8599005e4977b521f1464bae1cbda03",
+      "albums": [
+        "Thailand",
+        "Black & white"
+      ]
+    },
+    {
+      "kind": "photos",
+      "title": "",
+      "file": "art/photos/img-0866.jpg",
+      "thumb": "art/thumbs/img-0866.jpg",
+      "taken": "2026-02-09",
+      "added": "2026-10-28",
+      "sha1": "5621e6818d69aabe6ec3f1b53db052d9d49757e0",
+      "albums": [
+        "Thailand",
+        "Black & white"
+      ]
+    },
+    {
+      "kind": "photos",
+      "title": "",
+      "file": "art/photos/img-0868.jpg",
+      "thumb": "art/thumbs/img-0868.jpg",
+      "taken": "2026-02-09",
+      "added": "2026-10-28",
+      "sha1": "96e31ffcf5c0a56e2b716caf455f3f8d9a4bcd1d",
+      "albums": [
+        "Thailand",
+        "Black & white"
+      ]
+    },
+    {
+      "kind": "photos",
+      "title": "",
+      "file": "art/photos/img-0731.jpg",
+      "thumb": "art/thumbs/img-0731.jpg",
+      "taken": "2026-02-06",
+      "added": "2026-10-28",
+      "sha1": "c935dd6d38bbcdfd832348ca03d3a9103a3952a9",
+      "albums": [
+        "Thailand"
+      ]
+    },
+    {
+      "kind": "photos",
+      "title": "",
+      "file": "art/photos/img-0736.jpg",
+      "thumb": "art/thumbs/img-0736.jpg",
+      "taken": "2026-02-06",
+      "added": "2026-10-28",
+      "sha1": "1834fe80513a7f79d04f093402417eb14920e13b",
+      "albums": [
+        "Thailand"
+      ]
+    },
+    {
+      "kind": "photos",
+      "title": "",
+      "file": "art/photos/img-0642.jpg",
+      "thumb": "art/thumbs/img-0642.jpg",
+      "taken": "2026-02-05",
+      "added": "2026-10-28",
+      "sha1": "9eea40f40b7f2d62e59c8cfaf07a0f36b660c6b9",
+      "albums": [
+        "Thailand",
+        "Black & white"
+      ]
+    },
+    {
+      "kind": "photos",
+      "title": "",
+      "file": "art/photos/img-0648.jpg",
+      "thumb": "art/thumbs/img-0648.jpg",
+      "taken": "2026-02-05",
+      "added": "2026-10-28",
+      "sha1": "fb81b8517b077a9a72af1df7cbbba24f12a7dd06",
+      "albums": [
+        "Thailand"
+      ]
+    },
+    {
+      "kind": "photos",
+      "title": "",
+      "file": "art/photos/img-0655.jpg",
+      "thumb": "art/thumbs/img-0655.jpg",
+      "taken": "2026-02-05",
+      "added": "2026-10-28",
+      "sha1": "3e1c9ab1a36a9869570f060473a2569cd0ef29d5",
+      "albums": [
+        "Thailand"
+      ]
+    },
+    {
+      "kind": "photos",
+      "title": "",
+      "file": "art/photos/img-0674.jpg",
+      "thumb": "art/thumbs/img-0674.jpg",
+      "taken": "2026-02-05",
+      "added": "2026-10-28",
+      "sha1": "3575e35c126214c8682867c7dcdfda45a32989fb",
+      "albums": [
+        "Thailand"
+      ]
+    },
+    {
+      "kind": "photos",
+      "title": "",
+      "file": "art/photos/img-0678.jpg",
+      "thumb": "art/thumbs/img-0678.jpg",
+      "taken": "2026-02-05",
+      "added": "2026-10-28",
+      "sha1": "b45e5d313f34b716fffec19aefa72d835b25b29f",
+      "albums": [
+        "Thailand"
+      ]
+    },
+    {
+      "kind": "photos",
+      "title": "",
+      "file": "art/photos/img-0681.jpg",
+      "thumb": "art/thumbs/img-0681.jpg",
+      "taken": "2026-02-05",
+      "added": "2026-10-28",
+      "sha1": "e1550482a8a03224de89f2332278649dc5e59c8b",
+      "albums": [
+        "Thailand"
+      ]
+    },
+    {
+      "kind": "photos",
+      "title": "",
+      "file": "art/photos/img-0684.jpg",
+      "thumb": "art/thumbs/img-0684.jpg",
+      "taken": "2026-02-05",
+      "added": "2026-10-28",
+      "sha1": "e2f81500841518342bfb6c51f720c2c82728c67c",
+      "albums": [
+        "Thailand"
+      ]
+    },
+    {
+      "kind": "photos",
+      "title": "",
+      "file": "art/photos/img-0696.jpg",
+      "thumb": "art/thumbs/img-0696.jpg",
+      "taken": "2026-02-05",
+      "added": "2026-10-28",
+      "sha1": "983da4b3c98fa0a91f84e92b149f1dbbf8e4eeed",
+      "albums": [
+        "Thailand"
+      ]
+    },
+    {
+      "kind": "photos",
+      "title": "",
+      "file": "art/photos/img-0540.jpg",
+      "thumb": "art/thumbs/img-0540.jpg",
+      "taken": "2026-02-04",
+      "added": "2026-10-28",
+      "sha1": "be7f59dec9a7b215bd14f746cbcb21a985c657d8",
+      "albums": [
+        "Black & white"
+      ]
+    },
+    {
+      "kind": "photos",
+      "title": "",
+      "file": "art/photos/img-0260.jpg",
+      "thumb": "art/thumbs/img-0260.jpg",
+      "taken": "2026-01-20",
+      "added": "2026-10-28",
+      "sha1": "dcbee099e1672ab62342c91fc464962d9e44760d",
+      "albums": [
+        "Everyday"
+      ]
+    }
+  ]
+}
