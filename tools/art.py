@@ -285,6 +285,21 @@ def pull():
             print("  warning: could not pull the latest version from GitHub; continuing with the local copy")
 
 
+def push_pending():
+    """Push local commits, including ones left over from an earlier failed push."""
+    if not (ROOT / ".git").exists():
+        return
+    if not has_origin() and not (load_gallery()["items"] and connect_github()):
+        return  # never create the public repo for an empty gallery
+    ahead = git("rev-list", "--count", "@{u}..HEAD", check=False, capture_output=True, text=True)
+    if ahead.returncode == 0 and ahead.stdout.strip() == "0":
+        return
+    if git(*credential_args(), "push", "--quiet", "-u", "origin", "HEAD", check=False).returncode == 0:
+        print("Pushed. Your GitHub profile updates in a few seconds.")
+    else:
+        print("Push failed. The commit is saved; run this again when online.")
+
+
 def publish(summary, push):
     if not (ROOT / ".git").exists():
         print("Not a git repository; nothing committed.")
@@ -292,14 +307,11 @@ def publish(summary, push):
     git("add", "-A", "art", "README.md")
     if git("diff", "--cached", "--quiet", check=False).returncode == 0:
         print("Nothing changed.")
-        return
-    git("commit", "--quiet", "-m", summary)
-    print(f"Committed: {summary}")
-    if push and (has_origin() or connect_github()):
-        if git(*credential_args(), "push", "--quiet", "-u", "origin", "HEAD", check=False).returncode == 0:
-            print("Pushed. Your GitHub profile updates in a few seconds.")
-        else:
-            print("Push failed. The commit is saved; run this again when online.")
+    else:
+        git("commit", "--quiet", "-m", summary)
+        print(f"Committed: {summary}")
+    if push:
+        push_pending()
 
 
 def main():
@@ -323,6 +335,8 @@ def main():
         added = process_inbox(gallery)
         if not added:
             print("No new images. Put pictures in inbox/paintings or inbox/photos, then run this again.")
+            if gallery["items"] and not args.no_push:
+                push_pending()
             return 2
         summary = f"Add {len(added)} new piece{'s' if len(added) > 1 else ''} to the gallery"
 
