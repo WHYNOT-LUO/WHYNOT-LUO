@@ -1,3 +1,9 @@
+### Hey, I'm Moon 👋
+
+I write code, mostly little tools for math and learning (they're in the repos below). When I'm not doing that, I sketch, paint with whatever's lying around on my desk, and take way too many photos on my phone.
+
+So here's the non-code side of me ↓
+
 <!-- ART:START -->
 ## Art
 
