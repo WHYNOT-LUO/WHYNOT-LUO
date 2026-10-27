@@ -280,8 +280,9 @@ def connect_github():
 
 
 def pull():
-    if has_origin():
-        if git(*credential_args(), "pull", "--ff-only", "--quiet", check=False).returncode != 0:
+    tracking = git("rev-parse", "--abbrev-ref", "@{u}", check=False, capture_output=True)
+    if has_origin() and tracking.returncode == 0:  # nothing to pull before the first push
+        if git(*credential_args(), "pull", "--ff-only", "--quiet", check=False, capture_output=True).returncode != 0:
             print("  warning: could not pull the latest version from GitHub; continuing with the local copy")
 
 
