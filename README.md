@@ -1,8 +1,12 @@
 ### Hey, I'm Moon 👋
 
-I write code, mostly little tools for math and learning (they're in the repos below). When I'm not doing that, I sketch, paint with whatever's lying around on my desk, and take way too many photos on my phone.
+I'm curious about the little things in life—a problem that could be solved in a better way, a question worth exploring, or a moment I don't want to forget.
 
-So here's the non-code side of me ↓
+Some of these thoughts turn into code. I build small tools to solve problems I come across, explore ideas, or simply make everyday life a little more interesting.
+
+Others find their way into sketches, paintings, and the countless photos on my phone. They're my way of capturing little moments and catching ideas before they slip away.
+
+So, here's a little glimpse of my world beyond the code ↓
 
 <!-- ART:START -->
 ## Art
